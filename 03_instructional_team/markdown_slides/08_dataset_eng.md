@@ -29,6 +29,11 @@ $ echo "Data Sciences Institute"
 2. Dataset engineering encompasses three interconnected activities: curation (selecting the right data), synthesis (generating or augmenting data), and processing (cleaning and preparing data).
 3. Training data must be compliant, diverse, high-quality, and sufficient: all four attributes matter equally.
 4. Synthetic data has become central to post-training pipelines, enabling large-scale instruction and preference datasets at a fraction of the cost of human annotation.
+
+---
+
+## Main Points (cont.)
+
 5. Model bootstrapping (using large models to generate training data for smaller ones) is now a standard technique, but unverified synthetic data can degrade performance.
 6. Deduplication is critical: even small duplication rates bias model training and contaminate train/test splits.
 7. Dataset engineering is iterative: constant inspection, evaluation, and feedback from deployed models drives continuous improvement.
@@ -236,6 +241,11 @@ $ echo "Data Sciences Institute"
 2. Dataset engineering encompasses three interconnected activities: curation (selecting the right data), synthesis (generating or augmenting data), and processing (cleaning and preparing data).
 3. Training data must be compliant, diverse, high-quality, and sufficient: all four attributes matter equally.
 4. Synthetic data has become central to post-training pipelines, enabling large-scale instruction and preference datasets at a fraction of the cost of human annotation.
+
+---
+
+## Main Points (cont.)
+
 5. Model bootstrapping (using large models to generate training data for smaller ones) is now a standard technique, but unverified synthetic data can degrade performance.
 6. Deduplication is critical: even small duplication rates bias model training and contaminate train/test splits.
 7. Dataset engineering is iterative: constant inspection, evaluation, and feedback from deployed models drives continuous improvement.
