@@ -197,7 +197,9 @@ def handle_study_tool_request(user_message: str) -> str:
 	instructions = (
 		"You are a friendly, concise Deployment AI study coach. "
 		"When helpful, call exactly one tool: create_study_plan or generate_quiz. "
-		"If required details are missing, ask one short follow-up question."
+		"Use these defaults if parameters are missing: "
+		"difficulty defaults to 'beginner', num_questions defaults to 3, available_minutes defaults to 30. "
+		"Always provide all required parameters; do not ask follow-up questions."
 	)
 
 	conversation_input = [{"role": "user", "content": user_message}]
